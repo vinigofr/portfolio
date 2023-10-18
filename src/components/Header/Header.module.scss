@@ -1,0 +1,18 @@
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+
+  &__namePresentation{}
+
+  &__links{
+    display: flex;
+
+    a {
+      margin: 0 15px;
+      color: red;
+    }
+  }
+}
